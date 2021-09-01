@@ -1,0 +1,187 @@
+body {
+  background: #f6f6f6;
+  border-top: 8px solid #6cc6c4;
+  margin: 0;
+  color: #515151;
+}
+
+.container {
+  width: 922px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  height: 128px;
+}
+
+.header-left {
+  margin-right: auto;
+}
+
+.header-left img {
+  line-height: 64px;
+  margin-top: 54px;
+}
+
+.tag {
+  font-size: 10px;
+}
+
+.address {
+  font-size: 26px;
+  margin: 0;
+}
+
+.time {
+  font-size: 10px;
+  border: solid 1px #ccc;
+  text-align: center;
+  padding: 5px;
+}
+
+.holiday {
+  color: #b22d01;
+}
+
+.main{
+  border-bottom:2px solid #6cc6c4;
+}
+
+.main-top {
+  border-radius: 10px;
+  border: solid 1px #6cc6c4;
+}
+
+.main-middle {
+  display: flex;
+}
+
+.main-right img {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.main-top ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-top li {
+  background: #6cc6c4;
+  color: #fff;
+  border-right: #71c9c7 solid 1px;
+  border-left: #99e1df solid 1px;
+  width: 20%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navi-first {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.navi-last {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.common {
+  border: 1px solid #6cc6c4;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 260px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.common p {
+  color: #fff;
+  background: #6cc6c4;
+  margin: 0;
+  padding: 10px 8px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.common ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.common li {
+  background: url("https://haniwaman.com/sample/part3/template_08/common/images/bgListIcon01.png")
+    no-repeat 5px center;
+  padding: 8px 24px 8px;
+  border-bottom: 1px solid #6cc6c4;
+  cursor: pointer;
+}
+
+.information {
+  margin-left: 20px;
+  background: #fff;
+  padding: 16px 24px;
+}
+
+.info-tag {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 3px solid #6cc6c4;
+  padding-bottom: 10px;
+}
+
+.infobox{
+  display:flex;
+}
+
+.info-when{
+  font-weight:bold;
+  font-size:13px;
+  width:40%;
+  padding-left:10px;
+}
+
+.incident{
+  font-weight:normal;
+  font-size:13px;
+  width:120%;
+}
+
+.main-bottom ul{
+  display:flex;
+  list-style:none;
+  background:#6cc6c4;
+  padding:5px 10px;
+  border-radius:7px;
+}
+
+.main-bottom li{
+  background:url("https://haniwaman.com/sample/part3/template_08/common/images/bgFooterIcon.png") no-repeat 5px;
+  padding-left:25px;
+  margin-right:20px;
+  color:#fff;
+}
+
+.main-bottom p{
+  text-align:right;
+  font-size:13px;
+}
+
+footer{
+  text-align:center;
+  font-size:12px;
+}
